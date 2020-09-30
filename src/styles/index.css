@@ -24,3 +24,13 @@ body {
   border: 3px double #0b3e91;
   padding: 10px;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    margin-top: 50px;
+  }
+  .intro {
+    width: 80%;
+    font-size: 16px;
+  }
+}
