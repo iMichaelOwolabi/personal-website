@@ -25,6 +25,22 @@ body {
   padding: 10px;
 }
 
+.contact {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 600px) {
   body {
     margin-top: 50px;
